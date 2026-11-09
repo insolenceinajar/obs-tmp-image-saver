@@ -5,7 +5,8 @@ from PIL import Image as im
  
  
 sh = obs.obs_get_signal_handler()
- 
+
+# path to save the temporary images to:
 expPath = "D:/Program Files/obs-studio/data/obs-plugins/frontend-tools/scripts/tmp/"
  
 #obs.script_log(obs.LOG_DEBUG,str(imgs))
